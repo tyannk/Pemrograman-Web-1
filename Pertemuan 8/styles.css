@@ -1,0 +1,89 @@
+.header {
+	background-color: #46e2ec;
+	padding: 0.5%;
+	text-align: center;
+}
+
+.header h1 {
+	font-family: 'Merriweather', serif;
+	color: #282a35;
+}
+
+body {
+	margin: 0px;
+}
+
+.navigation {
+	background-color: #282a35;
+	text-align: center;
+	font-size: 20px;
+	padding: 0.5% 0px 0.5% 0px;
+}
+
+.navigation a {
+	padding-left: 1%;
+	padding-right: 1%;
+	font-family: 'Merriweather', serif;
+	text-decoration: none;
+	color: Aqua;
+}
+
+.containerLogin, .containerRegistrasi {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 310px;
+	height: 170px;
+	margin-top: -85px;
+	margin-left: -155px;
+	background-color: #282a35;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.containerLogin h1, .containerRegistrasi h1 {
+	display: inline;
+	font-family: 'Merriweather', serif;
+	color: #46e2ec;
+	padding-bottom: 5px;
+}
+
+.containerLogin label, .containerRegistrasi label {
+	font-family: 'Merriweather', serif;
+	color: #46e2ec;
+}
+
+.frame {
+	width: 100%;
+	height: 500px;
+}
+
+.konten {
+	margin-left: 20%;
+	margin-right: 20%;
+	font-family: 'Lato', sans-serif;
+}
+
+.kontenPenjualan img{
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+	float: left;
+	margin-right: 30px;
+	
+}
+
+.belumRegistrasi, .keHalamanLogin{
+	width: 300px;
+	height: 300px;
+	margin-top: -150px;
+	margin-left: -150px;
+	position: absolute;
+    top: 85%;
+    left: 50%;
+    text-align: center;
+}
+
+#username, #password, #submit{
+	border-radius: 5px;
+}
